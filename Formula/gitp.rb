@@ -1,22 +1,22 @@
 class Gitp < Formula
   desc "K9s-style TUI for managing git operations across multiple repositories"
   homepage "https://github.com/MerzoukeMansouri/gitp"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/MerzoukeMansouri/gitp/releases/download/v0.1.0/gitp-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "1bf0495829d36ca34daa6b0c6999498818c7531134d36dd6585ce1f20ec42463"
+      url "https://github.com/MerzoukeMansouri/gitp/releases/download/v0.2.0/gitp-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "c9de844b0286eeee6c77597935e0768aa02b2479279a807fbdd89f7d922c3563"
     else
-      url "https://github.com/MerzoukeMansouri/gitp/releases/download/v0.1.0/gitp-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "acd6762d8bccccfd0ec7586358a255c5e67063f16449551643ce901630968554"
+      url "https://github.com/MerzoukeMansouri/gitp/releases/download/v0.2.0/gitp-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8cc4e74e354bdf97d06e6ec71f40dd1143d0f239585b1878a8e0ba5062363fbe"
     end
   end
 
   on_linux do
-    url "https://github.com/MerzoukeMansouri/gitp/releases/download/v0.1.0/gitp-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "df40c4e7f2bbb174f4e78ae207e47943d132a680a3e86173becbb633b4671199"
+    url "https://github.com/MerzoukeMansouri/gitp/releases/download/v0.2.0/gitp-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "cdd640aaae32eced86d3080bdfe47fe2df77b51dcc8c7df8c744f5112f0231da"
   end
 
   def install
